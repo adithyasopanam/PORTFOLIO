@@ -8,7 +8,7 @@ const nextConfig = {
   },
   
 basePath: "/portfolio", // should match your GitHub repo name
-  assetPrefix: "/PORTFOLIO"
+  assetPrefix: "/portfolio"
 };
 
 export default nextConfig;
