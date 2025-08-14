@@ -7,8 +7,6 @@ const nextConfig = {
     unoptimized: true, // disable Next.js image optimization
   },
   
-basePath: "/portfolio", // should match your GitHub repo name
-  assetPrefix: "/portfolio"
 };
 
 export default nextConfig;
