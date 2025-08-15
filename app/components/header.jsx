@@ -52,18 +52,19 @@ const Header = () => {
           />
         </a>
 
-        <a
-          href="/adithya-dot.pdf"
-          download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
-        >
-          my resume
-          <Image
-            src={assets.download_icon}
-            alt="download"
-            className="w-4 h-4"
-          />
-        </a>
+       <a
+  href="/adithya-dot.pdf"
+  download
+  className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+>
+  my resume
+  <Image
+    src={assets.download_icon}
+    alt="download"
+    className="w-4 h-4"
+  />
+</a>
+
       </div>
     </div>
   );
