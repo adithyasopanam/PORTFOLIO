@@ -57,13 +57,14 @@ const Header = () => {
   download
   className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
 >
-  my resume
+  My Resume
   <Image
     src={assets.download_icon}
     alt="download"
     className="w-4 h-4"
   />
 </a>
+
 
       </div>
     </div>
