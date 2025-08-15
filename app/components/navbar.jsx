@@ -18,8 +18,8 @@ const Navbar = ({ isDarkmode, setIsDarkmode }) => {
   const navLinks = [
     { name: "Home", href: "#top" },
     { name: "About me", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "My work", href: "#work" },
+    { name: "Experience", href: "#services" },
+    { name: "Education", href: "#work" },
     { name: "Contact me", href: "#contact" },
   ];
 
@@ -52,7 +52,7 @@ const Navbar = ({ isDarkmode, setIsDarkmode }) => {
         {/* Desktop links */}
         <ul
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
-            isScroll ? "" : "bg-white shadow-sm bg-opacity-70"
+            isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark-border dark:border-white/50 dark:bg"
           }`}
         >
           {navLinks.map((link, index) => (

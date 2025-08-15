@@ -6,16 +6,16 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
+import firebase from './turbo.jpeg';
+import figma from './visual.jpeg';
 import git from './git.png';
-import mongodb from './mongodb.png';
+import mongodb from './oracle.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile-image.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -78,21 +78,30 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'MCA -APJ Abdul Kalam Technological University',
+        year: '2020-2022',
+        description: 'Specialized in software engineering and Database management.',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'BCA -University of Calicut',
+        year: '2017-2020',
+        description: 'Focused on programming,data structures,and web development',
     },
+     {
+        title: 'Plus Two -Government of Kerala',
+        year: '2016-2017',
     
+    },
+     {
+        title: 'SSLC -Government of Kerala ',
+        year: 'March 2015',
+
+    },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' }
+    { icon: 'Software developer', title: 'Manappuram Finance Limited', description: 'Design, code, test, and maintain software applications, often working with C# and ASP.NET.......', link: '',year: '2022-2024'  },
+    { icon: 'Educator', title: 'GHSS Pattambi', description: 'Teaching Computer Science and Computer Applications to higher secondary students....', link: '' ,year: '2024-present' },
 
 ]
 
